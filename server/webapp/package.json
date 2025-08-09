@@ -1,0 +1,25 @@
+{
+  "name": "safe-spac-webapp",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "postinstall": "tailwindcss -v || true"
+  },
+  "dependencies": {
+    "next": "14.2.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "isomorphic-fetch": "3.0.0",
+    "tailwindcss": "3.4.7",
+    "postcss": "8.4.41",
+    "autoprefixer": "10.4.19",
+    "@radix-ui/react-slot": "^1.0.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.4.0"
+  }
+}
